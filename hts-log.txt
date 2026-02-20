@@ -1,0 +1,25 @@
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 19 Feb 2026 21:52:51 at https://miks-soft.com/ru +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://miks-soft.com/ru -O1 "C:\My Web Sites\Webstudio" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+21:52:53	Warning: 	Note: due to https://miks-soft.com remote robots.txt rules, links beginning with these path will be forbidden: /admin (see in the options to disable this)
+21:55:21	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/gtm.js?id= (from https://miks-soft.com/ru)
+22:00:49	Error: 	"Not Found" (404) at link https://miks-soft.com/build/assets/path/to/globe_light.webp (from https://miks-soft.com/build/assets/app-ec13e0af.css)
+22:00:49	Error: 	"Not Found" (404) at link https://miks-soft.com/build/assets/path/to/globe_light@2x.webp (from https://miks-soft.com/build/assets/app-ec13e0af.css)
+22:01:04	Warning: 	Retry after error -4 (Incorrect length (917236 Bytes, 1359569 expected)) at link https://miks-soft.com/storage/cases/2025/02/25/5f96bc89e6b3653d65480f78a9693f695084dd7f.png (from https://miks-soft.com/ru/portfolio/web/web-development-for-international-fintech-company)
+22:01:04	Warning: 	Retry after error -4 (Incorrect length (605940 Bytes, 1704723 expected)) at link https://miks-soft.com/storage/cases/2025/02/25/a586f5d8ce1e7e6187ca70fbfdc8df23e57422f2.png (from https://miks-soft.com/ru/portfolio/web/web-development-for-international-fintech-company)
+22:01:04	Warning: 	Retry after error -4 (Incorrect length (720628 Bytes, 1496007 expected)) at link https://miks-soft.com/storage/cases/2025/02/25/6a3c3f1c5255b66afd0674c92851262843129f84.png (from https://miks-soft.com/ru/portfolio/web/web-development-for-international-fintech-company)
+22:01:05	Warning: 	Retry after error -4 (Incorrect length (753396 Bytes, 2526802 expected)) at link https://miks-soft.com/storage/cases/2025/02/25/12b5ec97e0c8eb476f3b580f4b175870ab4a22a3.png (from https://miks-soft.com/ru/portfolio/web/web-development-for-international-fintech-company)
+22:01:08	Warning: 	Retry after error -4 (Incorrect length (1359604 Bytes, 1770053 expected)) at link https://miks-soft.com/storage/cases/2025/02/25/ad9cc1793b4346ad6f51faaa413d721e166f1eec.png (from https://miks-soft.com/ru/portfolio/web/web-development-for-international-fintech-company)
+22:01:10	Warning: 	Retry after error -4 (Incorrect length (1375988 Bytes, 4059396 expected)) at link https://miks-soft.com/storage/cases/2025/02/25/1323ad844a50115f6b30027a60f32d55340ce99d.png (from https://miks-soft.com/ru/portfolio/web/web-development-for-international-fintech-company)
+22:01:11	Warning: 	Retry after error -4 (Incorrect length (1310452 Bytes, 2260749 expected)) at link https://miks-soft.com/storage/cases/2025/02/25/4be673779ec15ee84135e75c025acf4efae8857a.png (from https://miks-soft.com/ru/portfolio/web/web-development-for-international-fintech-company)
+22:01:13	Error: 	"Not Found" (404) at link https://miks-soft.com/services/outstaffing (from https://miks-soft.com/ru/services/outstaffing)
+22:01:13	Error: 	"Not Found" (404) at link https://miks-soft.com/services/startups (from https://miks-soft.com/ru/services/startups)
+22:01:13	Error: 	"Not Found" (404) at link https://miks-soft.com/services/digitalization (from https://miks-soft.com/ru/services/digitalization)
+
+HTTrack Website Copier/3.49-2 mirror complete in 8 minutes 22 seconds : 259 links scanned, 245 files written (87003015 bytes overall) [83989565 bytes received at 167309 bytes/sec], 4023683 bytes transferred using HTTP compression in 82 files, ratio 19%, 5.5 requests per connection
+(6 errors, 8 warnings, 0 messages)
