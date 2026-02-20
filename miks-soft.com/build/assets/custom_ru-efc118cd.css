@@ -1,0 +1,8 @@
+﻿.main__section .hero__title,.several-example .several-example__title{line-height:120%}.main__section .hero__title{line-height:126%}.several-example .several-example__title{line-height:130%}.advantages .advantages__title{line-height:122%}@media (max-width: 767px){.advantages .advantages__title{font-size:1.9rem}}
+
+.chose_lang{display:none!important}
+
+.header__logo{transform:translateX(-1.2rem)}.header__logo img{width:18rem!important}
+
+
+.btn__icon{display:inline-block!important;fill:#B19B71!important;stroke:none!important}.btn--primary:hover .btn__icon{fill:#FFFFFF!important}
