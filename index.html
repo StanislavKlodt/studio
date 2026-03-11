@@ -10,27 +10,27 @@
     <meta name="theme-color" content="#1c1a22" media="(prefers-color-scheme: dark)">
     <meta name="facebook-domain-verification" content="litf66fpdxrj764labxrd1gcqw03n7">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://klodt.studio/">
+    <meta property="og:url" content="https://klodt-studio.ru/">
 
 
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://klodt.studio/">
-            <meta property="og:image" content="/studio/assets/og.png">
-        <meta property="twitter:image" content="/studio/assets/og.png">
+    <meta property="twitter:url" content="https://klodt-studio.ru/">
+            <meta property="og:image" content="/assets/og.png">
+        <meta property="twitter:image" content="/assets/og.png">
     
 
-            <title>Компания Klodt Studio Development | klodt.studio</title>
-        <meta property="og:title" content="Компания Klodt Studio Development | klodt.studio">
-        <meta property="twitter:title" content="Компания Klodt Studio Development | klodt.studio">
+            <title>Компания Klodt Studio Development | klodt-studio.ru</title>
+        <meta property="og:title" content="Компания Klodt Studio Development | klodt-studio.ru">
+        <meta property="twitter:title" content="Компания Klodt Studio Development | klodt-studio.ru">
                 <meta name="description" content="Главная - Klodt Studio">
         <meta property="og:description" content="Главная - Klodt Studio">
         <meta property="twitter:description" content="Главная - Klodt Studio">
                         
     
-    <link rel="apple-touch-icon" sizes="76x76" href="/studio/assets/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/studio/assets/favicon.svg">
-    <link rel="icon" type="image/png" sizes="16x16" href="/studio/assets/favicon.svg">
-    <link rel="manifest" href="/studio/assets/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon.svg">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon.svg">
+    <link rel="manifest" href="/assets/site.webmanifest">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 
@@ -46,8 +46,8 @@
         "@context": "https://schema.org",
         "@type": "Organization",
         "name": "Klodt Studio",
-        "alternateName": "klodt.studio",
-        "url": "https://klodt.studio",
+        "alternateName": "klodt-studio.ru",
+        "url": "https://klodt-studio.ru",
         "logo": "/assets/images/logo.svg",
         "address": {
           "@type": "PostalAddress",
@@ -55,15 +55,15 @@
           "postalCode": "143082",
           "streetAddress": "дер. Жуковка 123"
         },
-        "email": "hello@klodt.studio",
+        "email": "hello@klodt-studio.ru",
         "telephone": "+79772887992",
         "sameAs": [
         ]
       }
     </script>
     
-    <link rel="preload" as="style" href="/studio/build/assets/app-ec13e0af.css" ><link rel="modulepreload" href="/studio/build/assets/index-32163a77.js" ><link rel="stylesheet" href="/studio/build/assets/app-ec13e0af.css" ><script type="module" src="/studio/build/assets/index-32163a77.js"></script>
-            <link rel="preload" as="style" href="/studio/build/assets/custom_ru-efc118cd.css" ><link rel="stylesheet" href="/studio/build/assets/custom_ru-efc118cd.css" >    
+    <link rel="preload" as="style" href="/build/assets/app-ec13e0af.css" ><link rel="modulepreload" href="/build/assets/index-32163a77.js" ><link rel="stylesheet" href="/build/assets/app-ec13e0af.css" ><script type="module" src="/build/assets/index-32163a77.js"></script>
+            <link rel="preload" as="style" href="/build/assets/custom_ru-efc118cd.css" ><link rel="stylesheet" href="/build/assets/custom_ru-efc118cd.css" >    
     
     <script src="https://cdn.jsdelivr.net/npm/intl-tel-input%4024.3.6/build/js/intlTelInput.min.js"></script>
     <script>
@@ -201,6 +201,54 @@
                 font-size: 1.2rem;
             }
         }
+        @media (max-width: 1024px) {
+            .unique__content {
+                display: flex !important;
+                flex-direction: column !important;
+                padding: 0 2rem !important;
+                gap: 0;
+            }
+            .unique__content-item,
+            .unique__content-item--perfomance,
+            .unique__content-item--slider,
+            .unique__content-item--btn {
+                grid-column: auto !important;
+                width: 100% !important;
+                max-width: 100% !important;
+            }
+            .unique__content-item--perfomance {
+                margin-bottom: 4rem;
+            }
+            .unique__content-item--perfomance .title--h3,
+            .unique__content-item--perfomance h3 {
+                max-width: none;
+                font-size: clamp(2.4rem, 5.6vw, 4rem);
+                line-height: 1.1;
+            }
+            .unique__img {
+                display: block;
+                width: 100%;
+                max-width: 34rem;
+                margin: 0 auto;
+            }
+            .unique .tabs-nav__list {
+                flex-wrap: wrap;
+                justify-content: space-between;
+                gap: 1rem 1.6rem;
+            }
+            .unique .tabs-nav__item {
+                flex: 1 1 calc(33.333% - 1.1rem);
+            }
+            .unique .tabs-nav__btn {
+                width: 100%;
+                min-height: 5.2rem;
+                display: flex;
+                align-items: flex-end;
+                justify-content: center;
+                text-align: center;
+                line-height: 1.2;
+            }
+        }
         .header__inner {
             padding-left: 1.6rem;
             padding-right: 1.6rem;
@@ -312,10 +360,10 @@
     <div class="container header__container">
         <div class="header__inner">
             <div class="header__start">
-                <a href="/studio/index.html" class="logo header__logo">
+                <a href="/index.html" class="logo header__logo">
         <span class="visually-hidden">KLODT STUDIO Home</span>
-        <img class="logo--top" src="/studio/assets/images/logo.svg" alt="">
-        <img class="logo--bottom" src="/studio/assets/images/logo.svg" alt="">
+        <img class="logo--top" src="/assets/images/logo.svg" alt="">
+        <img class="logo--bottom" src="/assets/images/logo.svg" alt="">
     </a>
 
                             </div>
@@ -326,7 +374,7 @@
                                                                 "
                             >
                                 <a
-            href="/studio/services.html"
+            href="/services.html"
                     class="btn header__link"
                     >
         <span class="btn__text
@@ -339,7 +387,7 @@
                                                                 "
                             >
                                 <a
-            href="/studio/portfolio.html"
+            href="/portfolio.html"
                     class="btn header__link"
                     >
         <span class="btn__text
@@ -379,14 +427,14 @@
                     class="icon burger__icon burger__icon--menu"
                             aria-hidden="true"
             >
-    <use xlink:href="/studio/assets/sprites/sprite-mono.svg#menu"></use>
+    <use xlink:href="/assets/sprites/sprite-mono.svg#menu"></use>
 </svg>
 
             <svg
                     class="icon burger__icon burger__icon--close"
                             aria-hidden="true"
             >
-    <use xlink:href="/studio/assets/sprites/sprite-mono.svg#close"></use>
+    <use xlink:href="/assets/sprites/sprite-mono.svg#close"></use>
 </svg>
         </button>
     </div>
@@ -412,7 +460,7 @@
                             <ul class="burger-menu__list offset-y">
                                     <li class="burger-menu__item">
                         <a
-            href="/studio/services.html"
+            href="/services.html"
                     class="btn burger-menu__link"
         >
         <span class="btn__text
@@ -424,7 +472,7 @@
                     </li>
                                     <li class="burger-menu__item">
                         <a
-            href="/studio/portfolio.html"
+            href="/portfolio.html"
                     class="btn burger-menu__link"
         >
         <span class="btn__text
@@ -456,13 +504,13 @@
                     </li>
                                     <li class="burger-menu__help-item">
                         <a
-            href="mailto:hello@klodt.studio"
+            href="mailto:hello@klodt-studio.ru"
                     class="btn burger-menu__help-link"
         >
         <span class="btn__text
                     
         ">
-        hello@klodt.studio
+        hello@klodt-studio.ru
      </span>
     </a>
                     </li>
@@ -474,7 +522,7 @@
         <main id="main" class="main">
         <div class="hero main__section">
             <div class="hero__video">
-            <video class="video" src="/studio/assets/main_screen_video.mp4" preload="metadata" autoplay="autoplay" loop muted playsinline></video>
+            <video class="video" src="/assets/main_screen_video.mp4" preload="metadata" autoplay="autoplay" loop muted playsinline></video>
         </div>
         <div class="container hero__container">
                     <h1
@@ -540,8 +588,8 @@ Cоздаем лучшие<br><b>цифровые решения для бизн
                                                                         >
                         <img
                             class="lazy hero__awards-img"
-                            src="/studio/assets/images/pixel.png"
-                            data-src="/studio/assets/images/awards/awwwards.svg"
+                            src="/assets/images/pixel.png"
+                            data-src="/assets/images/awards/awwwards.svg"
                             alt="Awwwards"
                         >
                     </li>
@@ -552,8 +600,8 @@ Cоздаем лучшие<br><b>цифровые решения для бизн
                                                                         >
                         <img
                             class="lazy hero__awards-img"
-                            src="/studio/assets/images/pixel.png"
-                            data-src="/studio/assets/images/awards/css_design_awards.svg"
+                            src="/assets/images/pixel.png"
+                            data-src="/assets/images/awards/css_design_awards.svg"
                             alt="CSSDesignAwards"
                         >
                     </li>
@@ -564,8 +612,8 @@ Cоздаем лучшие<br><b>цифровые решения для бизн
                                                                         >
                         <img
                             class="lazy hero__awards-img"
-                            src="/studio/assets/images/pixel.png"
-                            data-src="/studio/assets/images/awards/cssfox.svg"
+                            src="/assets/images/pixel.png"
+                            data-src="/assets/images/awards/cssfox.svg"
                             alt="cssfox"
                         >
                     </li>
@@ -576,8 +624,8 @@ Cоздаем лучшие<br><b>цифровые решения для бизн
                                                                         >
                         <img
                             class="lazy hero__awards-img"
-                            src="/studio/assets/images/pixel.png"
-                            data-src="/studio/assets/images/awards/cms_magazine.svg"
+                            src="/assets/images/pixel.png"
+                            data-src="/assets/images/awards/cms_magazine.svg"
                             alt="cms_magazine"
                         >
                     </li>
@@ -588,8 +636,8 @@ Cоздаем лучшие<br><b>цифровые решения для бизн
                                                                         >
                         <img
                             class="lazy hero__awards-img"
-                            src="/studio/assets/images/pixel.png"
-                            data-src="/studio/assets/images/awards/behance.svg"
+                            src="/assets/images/pixel.png"
+                            data-src="/assets/images/awards/behance.svg"
                             alt="behance"
                         >
                     </li>
@@ -622,19 +670,19 @@ Cоздаем лучшие<br><b>цифровые решения для бизн
                                 <picture>
         <source
             type="image/avif"
-            srcset="/studio/assets/images/pixel.avif"
-                            data-srcset="/studio/assets/images/advantages_figure/1.avif"
+            srcset="/assets/images/pixel.avif"
+                            data-srcset="/assets/images/advantages_figure/1.avif"
                     >
         <source
             type="image/webp"
-            srcset="/studio/assets/images/pixel.webp"
-                            data-srcset="/studio/assets/images/advantages_figure/1.webp"
+            srcset="/assets/images/pixel.webp"
+                            data-srcset="/assets/images/advantages_figure/1.webp"
             
         >
         <img
                             class="img lazy advantages__img advantages__img--1"
-                        src="/studio/assets/images/pixel.png"
-                            data-src="/studio/assets/images/advantages_figure/1.png"
+                        src="/assets/images/pixel.png"
+                            data-src="/assets/images/advantages_figure/1.png"
             
                             alt=""
                                                         >
@@ -657,19 +705,19 @@ Cоздаем лучшие<br><b>цифровые решения для бизн
                                 <picture>
         <source
             type="image/avif"
-            srcset="/studio/assets/images/pixel.avif"
-                            data-srcset="/studio/assets/images/advantages_figure/2.avif"
+            srcset="/assets/images/pixel.avif"
+                            data-srcset="/assets/images/advantages_figure/2.avif"
                     >
         <source
             type="image/webp"
-            srcset="/studio/assets/images/pixel.webp"
-                            data-srcset="/studio/assets/images/advantages_figure/2.webp"
+            srcset="/assets/images/pixel.webp"
+                            data-srcset="/assets/images/advantages_figure/2.webp"
             
         >
         <img
                             class="img lazy advantages__img advantages__img--2"
-                        src="/studio/assets/images/pixel.png"
-                            data-src="/studio/assets/images/advantages_figure/2.png"
+                        src="/assets/images/pixel.png"
+                            data-src="/assets/images/advantages_figure/2.png"
             
                             alt=""
                                                         >
@@ -692,19 +740,19 @@ Cоздаем лучшие<br><b>цифровые решения для бизн
                                 <picture>
         <source
             type="image/avif"
-            srcset="/studio/assets/images/pixel.avif"
-                            data-srcset="/studio/assets/images/advantages_figure/3.avif"
+            srcset="/assets/images/pixel.avif"
+                            data-srcset="/assets/images/advantages_figure/3.avif"
                     >
         <source
             type="image/webp"
-            srcset="/studio/assets/images/pixel.webp"
-                            data-srcset="/studio/assets/images/advantages_figure/3.webp"
+            srcset="/assets/images/pixel.webp"
+                            data-srcset="/assets/images/advantages_figure/3.webp"
             
         >
         <img
                             class="img lazy advantages__img advantages__img--3"
-                        src="/studio/assets/images/pixel.png"
-                            data-src="/studio/assets/images/advantages_figure/3.png"
+                        src="/assets/images/pixel.png"
+                            data-src="/assets/images/advantages_figure/3.png"
             
                             alt=""
                                                         >
@@ -727,19 +775,19 @@ Cоздаем лучшие<br><b>цифровые решения для бизн
                                 <picture>
         <source
             type="image/avif"
-            srcset="/studio/assets/images/pixel.avif"
-                            data-srcset="/studio/assets/images/advantages_figure/4.avif"
+            srcset="/assets/images/pixel.avif"
+                            data-srcset="/assets/images/advantages_figure/4.avif"
                     >
         <source
             type="image/webp"
-            srcset="/studio/assets/images/pixel.webp"
-                            data-srcset="/studio/assets/images/advantages_figure/4.webp"
+            srcset="/assets/images/pixel.webp"
+                            data-srcset="/assets/images/advantages_figure/4.webp"
             
         >
         <img
                             class="img lazy advantages__img advantages__img--4"
-                        src="/studio/assets/images/pixel.png"
-                            data-src="/studio/assets/images/advantages_figure/4.png"
+                        src="/assets/images/pixel.png"
+                            data-src="/assets/images/advantages_figure/4.png"
             
                             alt=""
                                                         >
@@ -762,19 +810,19 @@ Cоздаем лучшие<br><b>цифровые решения для бизн
                                 <picture>
         <source
             type="image/avif"
-            srcset="/studio/assets/images/pixel.avif"
-                            data-srcset="/studio/assets/images/advantages_figure/5.avif"
+            srcset="/assets/images/pixel.avif"
+                            data-srcset="/assets/images/advantages_figure/5.avif"
                     >
         <source
             type="image/webp"
-            srcset="/studio/assets/images/pixel.webp"
-                            data-srcset="/studio/assets/images/advantages_figure/5.webp"
+            srcset="/assets/images/pixel.webp"
+                            data-srcset="/assets/images/advantages_figure/5.webp"
             
         >
         <img
                             class="img lazy advantages__img advantages__img--5"
-                        src="/studio/assets/images/pixel.png"
-                            data-src="/studio/assets/images/advantages_figure/5.png"
+                        src="/assets/images/pixel.png"
+                            data-src="/assets/images/advantages_figure/5.png"
             
                             alt=""
                                                         >
@@ -861,7 +909,7 @@ Cоздаем лучшие<br><b>цифровые решения для бизн
                                     ДЛЯ ОБЕСПЕЧЕНИЯ ВЫСОКОЙ ПРОИЗВОДИТЕЛЬНОСТИ ВЫБИРАЕМ:
                                 </h3>
                                 <picture>
-                                    <img class="img lazy unique__img" src="/studio/assets/images/pixel.png" data-src="/studio/assets/images/unique_tech/new_unique_tech_all.png" alt="ДЛЯ ОБЕСПЕЧЕНИЯ ВЫСОКОЙ ПРОИЗВОДИТЕЛЬНОСТИ ВЫБИРАЕМ:">
+                                    <img class="img lazy unique__img" src="/assets/images/pixel.png" data-src="/assets/images/unique_tech/new_unique_tech_all.png" alt="ДЛЯ ОБЕСПЕЧЕНИЯ ВЫСОКОЙ ПРОИЗВОДИТЕЛЬНОСТИ ВЫБИРАЕМ:">
                                 </picture>
                             </div>
                         </div>
@@ -989,7 +1037,7 @@ Cоздаем лучшие<br><b>цифровые решения для бизн
                                                             <div class="swiper-slide">
                                     <article class="several-example offset-y">
                                         <picture>
-                                            <img class="img several-example__img" src="/studio/assets/images/schturm/1_0.png" alt="Интернет-магазин часов «Штурманские»">
+                                            <img class="img several-example__img" src="/assets/images/schturm/1_0.png" alt="Интернет-магазин часов «Штурманские»">
                                         </picture>
                                         <a class="several-example__link" href="portfolio/web/shturmanskie-watch-online-store.html">
                                             <h4 class="title title--h4 several-example__title">
@@ -1001,7 +1049,7 @@ Cоздаем лучшие<br><b>цифровые решения для бизн
                                                             <div class="swiper-slide">
                                     <article class="several-example offset-y">
                                         <picture>
-                                            <img class="img several-example__img" src="/studio/assets/images/olivaitalia/olivamain.png" alt="Интернет-магазин итальянских продуктов Olivaitalia">
+                                            <img class="img several-example__img" src="/assets/images/olivaitalia/olivamain.png" alt="Интернет-магазин итальянских продуктов Olivaitalia">
                                         </picture>
                                         <a class="several-example__link" href="portfolio/web/olivaitalia-italian-products-online-store.html">
                                             <h4 class="title title--h4 several-example__title">
@@ -1013,7 +1061,7 @@ Cоздаем лучшие<br><b>цифровые решения для бизн
                                                             <div class="swiper-slide">
                                     <article class="several-example offset-y">
                                         <picture>
-                                            <img class="img several-example__img" src="/studio/assets/images/skstoletie/main.png" alt="Корпоративный сайт строительной компании «СК Столетие»">
+                                            <img class="img several-example__img" src="/assets/images/skstoletie/main.png" alt="Корпоративный сайт строительной компании «СК Столетие»">
                                         </picture>
                                         <a class="several-example__link" href="portfolio/web/skstoletie-construction-company-website.html">
                                             <h4 class="title title--h4 several-example__title">
@@ -1026,7 +1074,7 @@ Cоздаем лучшие<br><b>цифровые решения для бизн
                     </div>
                 </div>
                 <div class="unique__content-item unique__content-item--btn">
-                    <a href="/studio/portfolio.html" class="btn btn--secondary unique__btn"><span class="btn__text ">Посмотреть другие</span></a>
+                    <a href="/portfolio.html" class="btn btn--secondary unique__btn"><span class="btn__text ">Посмотреть другие</span></a>
                 </div>
             </div>
                     <div class="unique__content-examples " data-slide="1">
@@ -1038,7 +1086,7 @@ Cоздаем лучшие<br><b>цифровые решения для бизн
                                                             <div class="swiper-slide">
                                     <article class="several-example offset-y">
                                         <picture>
-                                            <img class="img several-example__img" src="/studio/assets/images/skstoletie/main.png" alt="Корпоративный сайт строительной компании «СК Столетие»">
+                                            <img class="img several-example__img" src="/assets/images/skstoletie/main.png" alt="Корпоративный сайт строительной компании «СК Столетие»">
                                         </picture>
                                         <a class="several-example__link" href="portfolio/web/skstoletie-construction-company-website.html">
                                             <h4 class="title title--h4 several-example__title">
@@ -1050,7 +1098,7 @@ Cоздаем лучшие<br><b>цифровые решения для бизн
                                                             <div class="swiper-slide">
                                     <article class="several-example offset-y">
                                         <picture>
-                                            <img class="img several-example__img" src="/studio/assets/images/poselki/main.png" alt="Digital-платформа загородной недвижимости «Поселки.рф»">
+                                            <img class="img several-example__img" src="/assets/images/poselki/main.png" alt="Digital-платформа загородной недвижимости «Поселки.рф»">
                                         </picture>
                                         <a class="several-example__link" href="portfolio/software/poselki-real-estate-platform.html">
                                             <h4 class="title title--h4 several-example__title">
@@ -1062,7 +1110,7 @@ Cоздаем лучшие<br><b>цифровые решения для бизн
                                                             <div class="swiper-slide">
                                     <article class="several-example offset-y">
                                         <picture>
-                                            <img class="img several-example__img" src="/studio/assets/images/regmt/main.png" alt="Корпоративный сайт RegMT для центра регистрации медицинских изделий">
+                                            <img class="img several-example__img" src="/assets/images/regmt/main.png" alt="Корпоративный сайт RegMT для центра регистрации медицинских изделий">
                                         </picture>
                                         <a class="several-example__link" href="portfolio/web/regmt-medical-registration-website.html">
                                             <h4 class="title title--h4 several-example__title">
@@ -1075,7 +1123,7 @@ Cоздаем лучшие<br><b>цифровые решения для бизн
                     </div>
                 </div>
                 <div class="unique__content-item unique__content-item--btn">
-                    <a href="/studio/portfolio.html" class="btn btn--secondary unique__btn"><span class="btn__text ">Посмотреть другие</span></a>
+                    <a href="/portfolio.html" class="btn btn--secondary unique__btn"><span class="btn__text ">Посмотреть другие</span></a>
                 </div>
             </div>
                     <div class="unique__content-examples " data-slide="2">
@@ -1087,7 +1135,7 @@ Cоздаем лучшие<br><b>цифровые решения для бизн
                                                             <div class="swiper-slide">
                                     <article class="several-example offset-y">
                                         <picture>
-                                            <img class="img several-example__img" src="/studio/assets/images/olivaitalia/olivamain.png" alt="Интернет-магазин итальянских продуктов Olivaitalia">
+                                            <img class="img several-example__img" src="/assets/images/olivaitalia/olivamain.png" alt="Интернет-магазин итальянских продуктов Olivaitalia">
                                         </picture>
                                         <a class="several-example__link" href="portfolio/web/olivaitalia-italian-products-online-store.html">
                                             <h4 class="title title--h4 several-example__title">
@@ -1099,7 +1147,7 @@ Cоздаем лучшие<br><b>цифровые решения для бизн
                                                             <div class="swiper-slide">
                                     <article class="several-example offset-y">
                                         <picture>
-                                            <img class="img several-example__img" src="/studio/assets/images/schturm/1_0.png" alt="Интернет-магазин часов «Штурманские»">
+                                            <img class="img several-example__img" src="/assets/images/schturm/1_0.png" alt="Интернет-магазин часов «Штурманские»">
                                         </picture>
                                         <a class="several-example__link" href="portfolio/web/shturmanskie-watch-online-store.html">
                                             <h4 class="title title--h4 several-example__title">
@@ -1111,7 +1159,7 @@ Cоздаем лучшие<br><b>цифровые решения для бизн
                                                             <div class="swiper-slide">
                                     <article class="several-example offset-y">
                                         <picture>
-                                            <img class="img several-example__img" src="/studio/assets/images/poselki/main.png" alt="Digital-платформа загородной недвижимости «Поселки.рф»">
+                                            <img class="img several-example__img" src="/assets/images/poselki/main.png" alt="Digital-платформа загородной недвижимости «Поселки.рф»">
                                         </picture>
                                         <a class="several-example__link" href="portfolio/software/poselki-real-estate-platform.html">
                                             <h4 class="title title--h4 several-example__title">
@@ -1124,7 +1172,7 @@ Cоздаем лучшие<br><b>цифровые решения для бизн
                     </div>
                 </div>
                 <div class="unique__content-item unique__content-item--btn">
-                    <a href="/studio/portfolio.html" class="btn btn--secondary unique__btn"><span class="btn__text ">Посмотреть другие</span></a>
+                    <a href="/portfolio.html" class="btn btn--secondary unique__btn"><span class="btn__text ">Посмотреть другие</span></a>
                 </div>
             </div>
     <div class="bottom-gradient"></div>
@@ -1143,8 +1191,8 @@ Cоздаем лучшие<br><b>цифровые решения для бизн
                                                                             data-sal-duration="800"
                                                                             data-sal-delay="100"
                                                                                                 >
-                            <source media="(max-width:576px)" srcset="/studio/assets/images/pixel.png" data-srcset="/studio/assets/images/brands/stoletie_mob.png">
-                            <img class="lazy grid-logos__img" src="/studio/assets/images/pixel.png" data-src="/studio/assets/images/brands/stoletie.png" alt="Столетие">
+                            <source media="(max-width:576px)" srcset="/assets/images/pixel.png" data-srcset="/assets/images/brands/stoletie_mob.png">
+                            <img class="lazy grid-logos__img" src="/assets/images/pixel.png" data-src="/assets/images/brands/stoletie.png" alt="Столетие">
                         </picture>
                                     </li>
                             <li class="grid-logos__item">
@@ -1153,8 +1201,8 @@ Cоздаем лучшие<br><b>цифровые решения для бизн
                                                                             data-sal-duration="800"
                                                                             data-sal-delay="200"
                                                                                                 >
-                            <source media="(max-width:576px)" srcset="/studio/assets/images/pixel.png" data-srcset="/studio/assets/images/brands/taltek_mob.png">
-                            <img class="lazy grid-logos__img" src="/studio/assets/images/pixel.png" data-src="/studio/assets/images/brands/taltek.png" alt="Талтэк">
+                            <source media="(max-width:576px)" srcset="/assets/images/pixel.png" data-srcset="/assets/images/brands/taltek_mob.png">
+                            <img class="lazy grid-logos__img" src="/assets/images/pixel.png" data-src="/assets/images/brands/taltek.png" alt="Талтэк">
                         </picture>
                                     </li>
                             <li class="grid-logos__item">
@@ -1163,8 +1211,8 @@ Cоздаем лучшие<br><b>цифровые решения для бизн
                                                                             data-sal-duration="800"
                                                                             data-sal-delay="300"
                                                                                                 >
-                            <source media="(max-width:576px)" srcset="/studio/assets/images/pixel.png" data-srcset="/studio/assets/images/brands/shturmanskie_mob.png">
-                            <img class="lazy grid-logos__img" src="/studio/assets/images/pixel.png" data-src="/studio/assets/images/brands/shturmanskie.png" alt="Штурманские">
+                            <source media="(max-width:576px)" srcset="/assets/images/pixel.png" data-srcset="/assets/images/brands/shturmanskie_mob.png">
+                            <img class="lazy grid-logos__img" src="/assets/images/pixel.png" data-src="/assets/images/brands/shturmanskie.png" alt="Штурманские">
                         </picture>
                                     </li>
                             <li class="grid-logos__item">
@@ -1173,8 +1221,8 @@ Cоздаем лучшие<br><b>цифровые решения для бизн
                                                                             data-sal-duration="800"
                                                                             data-sal-delay="400"
                                                                                                 >
-                            <source media="(max-width:576px)" srcset="/studio/assets/images/pixel.png" data-srcset="/studio/assets/images/brands/mos_kanal_mob.png">
-                            <img class="lazy grid-logos__img" src="/studio/assets/images/pixel.png" data-src="/studio/assets/images/brands/mos_kanal.png" alt="Мос-Канал">
+                            <source media="(max-width:576px)" srcset="/assets/images/pixel.png" data-srcset="/assets/images/brands/mos_kanal_mob.png">
+                            <img class="lazy grid-logos__img" src="/assets/images/pixel.png" data-src="/assets/images/brands/mos_kanal.png" alt="Мос-Канал">
                         </picture>
                                     </li>
                             <li class="grid-logos__item">
@@ -1183,8 +1231,8 @@ Cоздаем лучшие<br><b>цифровые решения для бизн
                                                                             data-sal-duration="800"
                                                                             data-sal-delay="500"
                                                                                                 >
-                            <source media="(max-width:576px)" srcset="/studio/assets/images/pixel.png" data-srcset="/studio/assets/images/brands/profmagic_mob.png">
-                            <img class="lazy grid-logos__img" src="/studio/assets/images/pixel.png" data-src="/studio/assets/images/brands/profmagic.png" alt="Profmagic">
+                            <source media="(max-width:576px)" srcset="/assets/images/pixel.png" data-srcset="/assets/images/brands/profmagic_mob.png">
+                            <img class="lazy grid-logos__img" src="/assets/images/pixel.png" data-src="/assets/images/brands/profmagic.png" alt="Profmagic">
                         </picture>
                                     </li>
                             <li class="grid-logos__item">
@@ -1193,8 +1241,8 @@ Cоздаем лучшие<br><b>цифровые решения для бизн
                                                                             data-sal-duration="800"
                                                                             data-sal-delay="600"
                                                                                                 >
-                            <source media="(max-width:576px)" srcset="/studio/assets/images/pixel.png" data-srcset="/studio/assets/images/brands/airone_mob.png">
-                            <img class="lazy grid-logos__img" src="/studio/assets/images/pixel.png" data-src="/studio/assets/images/brands/airone.png" alt="Airone">
+                            <source media="(max-width:576px)" srcset="/assets/images/pixel.png" data-srcset="/assets/images/brands/airone_mob.png">
+                            <img class="lazy grid-logos__img" src="/assets/images/pixel.png" data-src="/assets/images/brands/airone.png" alt="Airone">
                         </picture>
                                     </li>
                             <li class="grid-logos__item">
@@ -1203,8 +1251,8 @@ Cоздаем лучшие<br><b>цифровые решения для бизн
                                                                             data-sal-duration="800"
                                                                             data-sal-delay="700"
                                                                                                 >
-                            <source media="(max-width:576px)" srcset="/studio/assets/images/pixel.png" data-srcset="/studio/assets/images/brands/poliver_mob.png">
-                            <img class="lazy grid-logos__img" src="/studio/assets/images/pixel.png" data-src="/studio/assets/images/brands/poliver.png" alt="Poliver">
+                            <source media="(max-width:576px)" srcset="/assets/images/pixel.png" data-srcset="/assets/images/brands/poliver_mob.png">
+                            <img class="lazy grid-logos__img" src="/assets/images/pixel.png" data-src="/assets/images/brands/poliver.png" alt="Poliver">
                         </picture>
                                     </li>
                             <li class="grid-logos__item">
@@ -1213,8 +1261,8 @@ Cоздаем лучшие<br><b>цифровые решения для бизн
                                                                             data-sal-duration="800"
                                                                             data-sal-delay="800"
                                                                                                 >
-                            <source media="(max-width:576px)" srcset="/studio/assets/images/pixel.png" data-srcset="/studio/assets/images/brands/powerstart_mob.png">
-                            <img class="lazy grid-logos__img" src="/studio/assets/images/pixel.png" data-src="/studio/assets/images/brands/powerstart.png" alt="Powerstart">
+                            <source media="(max-width:576px)" srcset="/assets/images/pixel.png" data-srcset="/assets/images/brands/powerstart_mob.png">
+                            <img class="lazy grid-logos__img" src="/assets/images/pixel.png" data-src="/assets/images/brands/powerstart.png" alt="Powerstart">
                         </picture>
                                     </li>
                     </ul>
@@ -1230,7 +1278,7 @@ Cоздаем лучшие<br><b>цифровые решения для бизн
                 МЫ РАБОТАЕМ С БЮДЖЕТАМИ ОТ 100 000 РУБЛЕЙ. ЭТОГО ХВАТАЕТ ДЛЯ РЕАЛИЗАЦИИ БАЗОВОГО ФУНКЦИОНАЛА ПРОДУКТА И ЕГО ДАЛЬНЕЙШЕГО РАЗВИТИЯ
             </p>
         
-                    <form class="form js-form" action="https://klodt.studio/" novalidate>
+                    <form class="form js-form" action="/api/discuss-project" novalidate>
     <div class="form__content">
                     <div class="input-block form-group form__item form__item--mb">
         <input
@@ -1316,7 +1364,7 @@ Cоздаем лучшие<br><b>цифровые решения для бизн
                                                         >
         <label for="input_checkbox_id">
             Да, я прочитал и согласен с
-            <a class="link form__link" href="/studio/privacy-policy.html">Политикой конфиденциальности</a>
+            <a class="link form__link" href="/privacy-policy.html">Политикой конфиденциальности</a>
         </label>
     </div>
 </div>
@@ -1348,7 +1396,7 @@ Cоздаем лучшие<br><b>цифровые решения для бизн
     </main>
             <footer class="footer">
             <div class="footer__video">
-            <video class="video" src="/studio/assets/footer_video_2.mp4" preload="metadata" autoplay="autoplay" loop muted playsinline></video>
+            <video class="video" src="/assets/footer_video_2.mp4" preload="metadata" autoplay="autoplay" loop muted playsinline></video>
         </div>
     
     <div class="footer-container">
@@ -1360,9 +1408,9 @@ Cоздаем лучшие<br><b>цифровые решения для бизн
                         </small>
                     </p>
                 
-                                    <a href="/studio/index.html" class="logo footer__logo">
+                                    <a href="/index.html" class="logo footer__logo">
         <span class="visually-hidden">KLODT STUDIO Home</span>
-        <img src="/studio/assets/images/logo.svg" alt="">
+        <img src="/assets/images/logo.svg" alt="">
     </a>
                             </div>
 
@@ -1404,7 +1452,7 @@ Cоздаем лучшие<br><b>цифровые решения для бизн
                                                                             
                                                                             <li class="footer__item">
                                             <a
-            href="/studio/privacy-policy.html"
+            href="/privacy-policy.html"
                     class="btn link footer__link"
         >
         <span class="btn__text
@@ -1421,7 +1469,7 @@ Cоздаем лучшие<br><b>цифровые решения для бизн
                                 <ul class="footer__list footer__menu-list offset-y">
                                                                             <li class="footer__item">
                                             <a
-            href="/studio/services.html"
+            href="/services.html"
                     class="btn link footer__link"
         >
         <span class="btn__text
@@ -1432,7 +1480,7 @@ Cоздаем лучшие<br><b>цифровые решения для бизн
                                         </li>
                                                                             <li class="footer__item">
                                             <a
-            href="/studio/portfolio.html"
+            href="/portfolio.html"
                     class="btn link footer__link"
         >
         <span class="btn__text
@@ -1450,7 +1498,7 @@ Cоздаем лучшие<br><b>цифровые решения для бизн
                                                                                                                         
                                                                                     <li class="footer__item">
                                                 <a
-            href="/studio/privacy-policy.html"
+            href="/privacy-policy.html"
                     class="btn link footer__link"
         >
         <span class="btn__text
@@ -1461,7 +1509,7 @@ Cоздаем лучшие<br><b>цифровые решения для бизн
                                             </li>
                                                                                                                                                                 <li class="footer__item">
                                                 <a
-            href="/studio/services.html"
+            href="/services.html"
                     class="btn link footer__link"
         >
         <span class="btn__text
@@ -1472,7 +1520,7 @@ Cоздаем лучшие<br><b>цифровые решения для бизн
                                             </li>
                                                                                     <li class="footer__item">
                                                 <a
-            href="/studio/portfolio.html"
+            href="/portfolio.html"
                     class="btn link footer__link"
         >
         <span class="btn__text
@@ -1498,7 +1546,7 @@ Cоздаем лучшие<br><b>цифровые решения для бизн
             Оставьте заявку и мы свяжемся с Вами в ближайшее время
         </p>
     
-            <form class="form js-form" action="https://klodt.studio/" novalidate>
+            <form class="form js-form" action="/api/discuss-project" novalidate>
     <div class="form__content">
                     <div class="input-block form-group form__item form__item--mb">
         <input
@@ -1584,7 +1632,7 @@ Cоздаем лучшие<br><b>цифровые решения для бизн
                                                         >
         <label for="input_checkbox_id_2">
             Да, я прочитал и согласен с
-            <a class="link form__link" href="/studio/privacy-policy.html">Политикой конфиденциальности</a>
+            <a class="link form__link" href="/privacy-policy.html">Политикой конфиденциальности</a>
         </label>
     </div>
 </div>
@@ -1615,14 +1663,14 @@ Cоздаем лучшие<br><b>цифровые решения для бизн
         <svg
                     class="icon popup__close-icon"
         >
-    <use xlink:href="/studio/assets/sprites/sprite-mono.svg#close"></use>
+    <use xlink:href="/assets/sprites/sprite-mono.svg#close"></use>
 </svg>
     </button>
 </div>
 
     <div class="cookie cookie--hidden">
     <p class="cookie__text">
-        Мы используем файлы cookie на нашем веб-сайте. Вы можете прочитать больше в нашей <a class="cookie__link" href="/studio/privacy-policy.html">Политике конфиденциальности</a>
+        Мы используем файлы cookie на нашем веб-сайте. Вы можете прочитать больше в нашей <a class="cookie__link" href="/privacy-policy.html">Политике конфиденциальности</a>
     </p>
     <button
                     class="btn btn--primary cookie__btn accept"
@@ -1711,7 +1759,7 @@ Cоздаем лучшие<br><b>цифровые решения для бизн
         <svg
                     class="icon popup__close-icon"
         >
-    <use xlink:href="/studio/assets/sprites/sprite-mono.svg#close"></use>
+    <use xlink:href="/assets/sprites/sprite-mono.svg#close"></use>
 </svg>
     </button>
 </div>
@@ -1826,6 +1874,7 @@ Cоздаем лучшие<br><b>цифровые решения для бизн
 </body>
 
 </html>
+
 
 
 
